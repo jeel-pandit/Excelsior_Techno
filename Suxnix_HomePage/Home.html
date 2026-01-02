@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Home Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/yourcode.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./home.css" />
+  </head>
+  <body>
+    <!-- ------Navbar section------- -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white suxnix-nav sticky-top"
+    >
+      <div class="container">
+        <!-- Logo -->
+        <div class="logo">
+          <a href="#">
+            <img
+              src="https://suxnix-dev.myshopify.com/cdn/shop/files/logo.png?v=1735561122"
+            />
+          </a>
+        </div>
+
+        <!-- Mobile toggle -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Center menu -->
+          <ul class="navbar-nav mx-auto suxnix-menu">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#product">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ingredients">Ingredient</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+
+            <!-- Shop Dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Shop
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="shopDropdown">
+                <li><a class="dropdown-item" href="#">Our Shop</a></li>
+                <li><a class="dropdown-item" href="#">Shop Details</a></li>
+                <li><a class="dropdown-item" href="#">Cart Page</a></li>
+                <li><a class="dropdown-item" href="#">Login Page</a></li>
+                <li><a class="dropdown-item" href="#">Registration</a></li>
+              </ul>
+            </li>
+
+            <!-- News Dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="newsDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                News
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="newsDropdown">
+                <li><a class="dropdown-item" href="#">Our Blog</a></li>
+                <li><a class="dropdown-item" href="#">Blog Details</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
+          </ul>
+
+          <!-- Right icons -->
+          <div class="nav-icons d-flex align-items-center gap-3">
+            <i class="bi bi-cart"></i>
+            <i class="bi bi-search"></i>
+
+            <!-- green round button -->
+            <div class="menu-btn">
+              <i class="bi bi-grid" style="margin-left: 4px"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main_wraper">
+      <!-- -------Hero section--------- -->
+      <section class="text-center" id="home">
+        <div>
+          <p style="color: #faa432; margin-top: 30px">
+            .. Increased Energy With SUXNIX ..
+          </p>
+          <h3>Mix Protein Provided Way To Growth</h3>
+          <button class="btn_shop_main">Shop Now</button>
+          <div class="row">
+            <div class="col-12">
+              <div class="banner-image text-center">
+                <div class="img-wrapper">
+                  <img
+                    src="https://suxnix-dev.myshopify.com/cdn/shop/files/banner_shape01.png?v=1735621648&width=200"
+                    class="leaf leaf-left"
+                    alt="left leaf"
+                  />
+
+                  <!-- Right leaf -->
+                  <img
+                    src="https://suxnix-dev.myshopify.com/cdn/shop/files/banner_shape02.png?v=1735621648&width=200"
+                    class="leaf leaf-right"
+                    alt="right leaf"
+                  />
+                  <!-- Green background -->
+                  <img
+                    src="https://suxnix-dev.myshopify.com/cdn/shop/files/banner_round_bg_b113813b-23c3-450b-846b-d4d4d9541856.png?v=1736613043&width=1200"
+                    class="bg-shape"
+                    alt="background"
+                  />
+
+                  <!-- Product image (ON TOP) -->
+                  <img
+                    src="https://suxnix-dev.myshopify.com/cdn/shop/files/banner_img01_4dfc6924-a7d3-4e69-abc4-4e1199127900.png?v=1736613086&width=500"
+                    class="main-img"
+                    alt="product"
+                  />
+                  <!-- Bottom-left decorative leaf -->
+                  <img
+                    src="https://suxnix-dev.myshopify.com/cdn/shop/files/banner_shape03.png?v=1736613185&width=200"
+                    class="left-corner"
+                    alt="bottom leaf"
+                  />
+                  <img
+                    src="https://suxnix-dev.myshopify.com/cdn/shop/files/banner_shape03.png?v=1736613185&width=200"
+                    class="right-corner"
+                    alt="bottom leaf"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div>
+        <p style="text-align: center; color: #faa432">
+          Perfect Brand is Featured on
+        </p>
+
+        <div>
+          <div class="row">
+            <div class="col-10">
+              <div class="slider-container">
+                <div class="slides-wrapper">
+                  <!-- Slide 1 -->
+                  <div class="slide">
+                    <img
+                      src="https://suxnix-dev.myshopify.com/cdn/shop/files/brand_06.png?v=1736574801"
+                      alt="Paysafe"
+                      class="logo-img"
+                    />
+                    <img
+                      src="https://suxnix-dev.myshopify.com/cdn/shop/files/brand_02.png?v=1736574801"
+                      alt="Mollie"
+                      class="logo-img"
+                    />
+                    <img
+                      src="https://suxnix-dev.myshopify.com/cdn/shop/files/brand_01.png?v=1736574801"
+                      alt="Square"
+                      class="logo-img"
+                    />
+                    <img
+                      src="https://suxnix-dev.myshopify.com/cdn/shop/files/brand_03.png?v=1736574801"
+                      alt="Qlik"
+                      class="logo-img"
+                    />
+                  </div>
+
+                  <!-- Slide 2 -->
+                  <div class="slide">
+                    <img
+                      src="https://suxnix-dev.myshopify.com/cdn/shop/files/brand_05.png?v=1736574801"
+                      alt="Square"
+                      class="logo-img"
+                    />
+                    <img
+                      src="https://suxnix-dev.myshopify.com/cdn/shop/files/brand_05.png?v=1736574801"
+                      alt="Affirm"
+                      class="logo-img"
+                    />
+                    <img
+                      src="https://suxnix-dev.myshopify.com/cdn/shop/files/brand_06.png?v=1736574801"
+                      alt="Paysafe"
+                      class="logo-img"
+                    />
+                    <img
+                      src="https://suxnix-dev.myshopify.com/cdn/shop/files/brand_02.png?v=1736574801"
+                      alt="Mollie"
+                      class="logo-img"
+                    />
+                  </div>
+                </div>
+
+                <!-- Slide Indicator Dots -->
+                <!-- <div class="slide-indicator">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- -------feature section--------- -->
+
+      <section class="ingredients-section" id="features">
+        <div class="container">
+          <div class="row align-items-center">
+            <!-- LEFT CONTENT -->
+
+            <div class="col-lg-6">
+              <div class="row gy-5">
+                <div class="col-md-6 feature-item">
+                  <i class="fa-solid fa-leaf"></i>
+                  <h5>MULTI FRUITS FLAVOUR</h5>
+                  <p>
+                    A thing added to something else in order to complete or
+                    enhance it.
+                  </p>
+                </div>
+
+                <div class="col-md-6 feature-item">
+                  <i class="fa-solid fa-flask"></i>
+                  <h5>FLOWER FORMULA</h5>
+                  <p>
+                    A thing added to something else in order to complete or
+                    enhance it.
+                  </p>
+                </div>
+
+                <div class="col-md-6 feature-item">
+                  <i class="fa-brands fa-screenpal"></i>
+                  <h5>FISHBONE DIAGRAM</h5>
+                  <p>
+                    A thing added to something else in order to complete or
+                    enhance it.
+                  </p>
+                </div>
+
+                <div class="col-md-6 feature-item">
+                  <i class="fa-brands fa-google-scholar"></i>
+                  <h5>100% FAT BLASTING</h5>
+                  <p>
+                    A thing added to something else in order to complete or
+                    enhance it.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- RIGHT IMAGE -->
+            <div class="col-lg-6 text-center position-relative">
+              <img
+                src="https://suxnix-dev.myshopify.com/cdn/shop/files/features_img_00ec7c4b-95e1-4661-b180-7c2bd4db7ebb.png?v=1736613975"
+                class="bowl-img"
+                alt="ingredients bowl"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!---------Product Section --------->
+
+      <section class="product-main" id="product">
+        <!-- Product 1 (image left) -->
+        <div class="product-row">
+          <div class="product_col">
+            <div class="product-media">
+              <img
+                src="https://suxnix-dev.myshopify.com/cdn/shop/files/features_product_shape01.png?v=1736660782"
+                class="f_pro_side_img"
+                alt=""
+              />
+              <img
+                src="https://suxnix-dev.myshopify.com/cdn/shop/files/features_product01.png?v=1736660782"
+                class="f_pro_img"
+                alt=""
+              />
+            </div>
+
+            <div class="product-content">
+              <p>Serious Mass</p>
+              <h3>High-strength, 5000IU</h3>
+              <p>
+                Vitamin D3 supplements are commonly recommended for people at
+                risk for vitamin D deficiency. Low vitamin D levels cause
+                depression, fatigue, and muscle weakness.
+              </p>
+
+              <div class="price_box">
+                <button class="btn pro_btn">Shop Now</button>
+                <h2>$89.99</h2>
+                <h5 class="old-price">$117.99</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 (image right) -->
+
+        <div class="product-row reverse">
+          <div class="product_col2">
+            <div class="product-content">
+              <p>Protein Whey</p>
+              <h3>High-strength, 4000IU</h3>
+              <p>
+                Vitamin D3 supplements are commonly recommended for people at
+                risk for vitamin D deficiency. Low vitamin D levels cause
+                depression, fatigue, and muscle weakness.
+              </p>
+
+              <div class="price_box">
+                <button class="btn pro_btn">Shop Now</button>
+                <h2>$89.99</h2>
+                <h5 class="old-price">$117.99</h5>
+              </div>
+            </div>
+            <div class="product-media">
+              <img
+                src="http://suxnix-dev.myshopify.com/cdn/shop/files/features_product02.png?v=1736661941"
+                class="f_pro_img"
+                alt=""
+              />
+              <img
+                src="https://suxnix-dev.myshopify.com/cdn/shop/files/features_product_shape02.png?v=1736661941"
+                class="f_pro_side_img2"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 (image left again) -->
+        <div class="product-row">
+          <div class="product_col">
+            <div class="product-media">
+              <img
+                src="https://suxnix-dev.myshopify.com/cdn/shop/files/features_product_shape03.png?v=1736661972"
+                class="f_pro_side_img"
+                alt=""
+              />
+              <img
+                src="http://suxnix-dev.myshopify.com/cdn/shop/files/features_product03.png?v=1736661972"
+                class="f_pro_img"
+                alt=""
+              />
+            </div>
+
+            <div class="product-content">
+              <p>Max Mass 3xl</p>
+              <h3>High-strength, 5000IU</h3>
+              <p>
+                Vitamin D3 supplements are commonly recommended for people at
+                risk for vitamin D deficiency. Low vitamin D levels cause
+                depression, fatigue, and muscle weakness.
+              </p>
+
+              <div class="price_box">
+                <button class="btn pro_btn">Shop Now</button>
+                <h2>$89.99</h2>
+                <h5 class="old-price">$117.99</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ====card-section of products===== -->
+        <div class="card-section">
+          <div class="card">
+            <div class="card-top">
+              <div class="img-pro">
+                <img
+                  src="https://suxnix-dev.myshopify.com/cdn/shop/files/home_shop_thumb01.png?v=1737721978"
+                />
+              </div>
+            </div>
+            <div class="card-content">
+              <h5>Antiaging and Longevity</h5>
+              <h4>TK 49.99</h4>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="cart-buy">
+              <div class="cart-icon">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </div>
+              <button class="buy-now">buy now</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-top">
+              <div class="img-pro">
+                <img
+                  src="https://suxnix-dev.myshopify.com/cdn/shop/files/home_shop_thumb03.png?v=1738166815"
+                />
+              </div>
+            </div>
+            <div class="card-content">
+              <h5>Box Full of Muscles</h5>
+              <h4>TK 85.99</h4>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="cart-buy">
+              <div class="cart-icon">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </div>
+              <button class="buy-now">buy now</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-top">
+              <div class="img-pro">
+                <img
+                  src="https://suxnix-dev.myshopify.com/cdn/shop/files/home_shop_thumb04.png?v=1738166199"
+                />
+              </div>
+            </div>
+            <div class="card-content">
+              <h5>Protein Powder 2kg</h5>
+              <h4>TK 85.99</h4>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="cart-buy">
+              <div class="cart-icon">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </div>
+              <button class="buy-now">buy now</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-top">
+              <div class="img-pro">
+                <img
+                  src="https://suxnix-dev.myshopify.com/cdn/shop/files/home_shop_thumb02.png?v=1738166857"
+                />
+              </div>
+            </div>
+            <div class="card-content">
+              <h5>Whey Protein Powder</h5>
+              <h4>TK 49.99</h4>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="cart-buy">
+              <div class="cart-icon">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </div>
+              <button class="buy-now">buy now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- =====Video section==== -->
+      <div class="video_bg">
+        <img
+          src="https://suxnix-dev.myshopify.com/cdn/shop/files/video_bg_8112a5ce-2dd0-45f9-ac62-fd4d1b132944.jpg?v=1737135174"
+          alt="Video background"
+        />
+
+        <a
+          href="https://www.youtube.com/watch?v=HQfF5XRVXjU"
+          class="play-button"
+        >
+          <i class="fas fa-play"></i>
+        </a>
+      </div>
+
+      <!-- ===Achivment== -->
+      <div class="stats-card">
+        <div class="stat">
+          <div class="circle" style="--p: 65"><span>65%</span></div>
+          <div>
+            <h4>ACTIVE MEMBERS</h4>
+            <p>Yes we did it asap software</p>
+          </div>
+        </div>
+
+        <div class="stat">
+          <div class="circle" style="--p: 90"><span>90%</span></div>
+          <div>
+            <h4>PROJECTS DONE</h4>
+            <p>Yes we did it asap software</p>
+          </div>
+        </div>
+
+        <div class="stat">
+          <div class="circle" style="--p: 80"><span>80%</span></div>
+          <div>
+            <h4>GET REWARDS</h4>
+            <p>Yes we did it asap software</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ====Ingredients section===== -->
+      <section id="ingredients">
+        <div class="ingredients">
+          <img
+            src="https://suxnix-dev.myshopify.com/cdn/shop/files/ingredients_shape_3fd21533-6d88-4ac8-af2f-415082b53a2c.png?v=1737135925"
+            class="ingr_img2"
+          />
+          <img
+            src="https://suxnix-dev.myshopify.com/cdn/shop/files/ingredients_img_935aff4a-681c-4796-b32f-2c04b1334309.png?v=1737135850"
+            class="ingr_img"
+          />
+          <div class="ingr_content">
+            <h6 style="margin-left: 75px; color: #ff7a00">
+              .. Increased Energy With Suxnix ..
+            </h6>
+            <h1 style="margin-left: 75px">Suxnix Ingredients</h1>
+
+            <div class="ingr_row">
+              <div class="ingr_item">
+                <img
+                  src="https://suxnix-dev.myshopify.com/cdn/shop/files/ingredients_item01_e2ff04ee-49fd-4493-8a4a-3c4ab47d124f.png?v=1737135924"
+                />
+                <h5>Helps You Stick To Your Diet</h5>
+                <p>
+                  A thing added to something else in order to complete or
+                  enhance it.
+                </p>
+              </div>
+
+              <div class="ingr_item">
+                <img
+                  src="https://suxnix-dev.myshopify.com/cdn/shop/files/ingredients_item02.png?v=1737135925"
+                />
+                <h5>Only 3g Net Carbs In Every Jar</h5>
+                <p>
+                  A thing added to something else in order to complete or
+                  enhance it.
+                </p>
+              </div>
+            </div>
+
+            <div class="ingr_row">
+              <div class="ingr_item">
+                <img
+                  src="https://suxnix-dev.myshopify.com/cdn/shop/files/ingredients_item03.png?v=1737135924"
+                />
+                <h5>Ingredients To Fuel Your Body</h5>
+                <p>
+                  A thing added to something else in order to complete or
+                  enhance it.
+                </p>
+              </div>
+
+              <div class="ingr_item">
+                <img
+                  src="https://suxnix-dev.myshopify.com/cdn/shop/files/ingredients_item04.png?v=1737135925"
+                />
+                <h5>Clean Ingredients Only</h5>
+                <p>
+                  A thing added to something else in order to complete or
+                  enhance it.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ============================== -->
+
+        <div class="row align-items-center formula-section">
+          <div class="col-lg-6 order-1 order-lg-0 formula-text">
+            <h5>.. Suxnix Formula ..</h5>
+            <h2>Why We Chose This Formula</h2>
+            <button class="btn_know">Know more</button>
+          </div>
+
+          <div class="col-lg-6 text-center order-0 order-lg-1">
+            <img
+              src="https://suxnix-dev.myshopify.com/cdn/shop/files/formula_img.png?v=1737136420"
+              class="formula-img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- =====Pricing section===== -->
+      <section id="pricing">
+        <div class="price-section">
+          <p style="text-align: center; color: #ff7a00; padding-top: 40px">
+            .. Suxnix Plans ..
+          </p>
+          <h1 style="text-align: center; padding-bottom: 40px">
+            SUPPLEMENT PACKAGES
+          </h1>
+          <div class="for_val">
+            <div class="popular">Most Popular</div>
+            <div class="value">Best value</div>
+          </div>
+
+          <div class="cards_price">
+            <div class="price-card">
+              <p>1 BOTTLE OF</p>
+              <p class="product-name">SUXNIX</p>
+              <p class="product-desc">(1 X 250 Veggie Caps Bottle)</p>
+
+              <img
+                src="
+              https://suxnix-dev.myshopify.com/cdn/shop/files/pricing_01.png?v=1737217949
+              "
+                style="height: 120px; width: 61px"
+              />
+
+              <div class="price-info">
+                <p class="price">
+                  $69 <span class="price-unit">Per</span>
+                  <span class="price-unit">Bottle</span>
+                </p>
+                <p>($69 TOTAL)</p>
+                <p class="discount">SAVE 14%</p>
+              </div>
+              <p class="shipping">+ Free Shipping</p>
+              <div class="btn-sec">
+                <button class="buy-button">
+                  <span class="button-main">BUY NOW</span>
+                  <span class="guarantee"
+                    >365 DAY FULL MONEY BACK GUARANTEE</span
+                  >
+                </button>
+              </div>
+            </div>
+
+            <div class="price-card">
+              <p>1 BOTTLE OF</p>
+              <p class="product-name">SUXNIX</p>
+              <p class="product-desc">(1 X 250 Veggie Caps Bottle)</p>
+              <img
+                src="https://suxnix-dev.myshopify.com/cdn/shop/files/pricing_02.png?v=1737217949"
+                style="height: 120px; width: 129px"
+              />
+              <div class="price-info">
+                <p class="price">$69 <span class="price-unit">Per</span></p>
+                <p>($69 TOTAL)</p>
+                <p class="discount">SAVE 14%</p>
+              </div>
+              <p class="shipping">+ Free Shipping</p>
+              <div class="btn-sec">
+                <button class="buy-button">
+                  <span class="button-main">BUY NOW</span>
+                  <span class="guarantee"
+                    >365 DAY FULL MONEY BACK GUARANTEE</span
+                  >
+                </button>
+              </div>
+            </div>
+
+            <div class="price-card_value">
+              <p>1 BOTTLE OF</p>
+              <p class="product-name">SUXNIX</p>
+              <p class="product-desc">(1 X 250 Veggie Caps Bottle)</p>
+              <img
+                src="https://suxnix-dev.myshopify.com/cdn/shop/files/pricing_03.png?v=1737217949"
+                style="height: 120px; width: 165px"
+              />
+              <div class="price-info">
+                <p class="price">$69 <span class="price-unit">Per</span></p>
+                <p>($69 TOTAL)</p>
+                <p class="discount">SAVE 14%</p>
+              </div>
+              <p class="shipping">+ Free Shipping</p>
+              <div class="btn-sec">
+                <button class="buy-button">
+                  <span class="button-main">BUY NOW</span>
+                  <span class="guarantee"
+                    >365 DAY FULL MONEY BACK GUARANTEE</span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====review sliding===== -->
+      <section class="testimonial-section">
+        <div class="container">
+          <!-- Bootstrap Carousel -->
+          <div
+            id="testimonialCarousel"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <!-- Slide 1 -->
+              <div class="carousel-item active" data-bs-interval="4000">
+                <div class="testimonial-card mx-auto" style="max-width: 700px">
+                  <div class="row-cols-5 text-center">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <p class="testimonial-text">
+                    Becoming more involved in administration within the
+                    (MARMcAsigus) health system over the years, I had been
+                    researching options for further education that would assist
+                    in this transition and fit my busy schedule.
+                  </p>
+                  <img
+                    src="https://suxnix-dev.myshopify.com/cdn/shop/files/testi_avatar02.jpg?v=1737218128"
+                    class="author_img"
+                  />
+                  <p class="testimonial-author text-center">JANEL COOPER</p>
+                </div>
+              </div>
+
+              <!-- Slide 2 -->
+              <div class="carousel-item" data-bs-interval="4000">
+                <div class="testimonial-card mx-auto" style="max-width: 700px">
+                  <div class="row-cols-5 text-center">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <p class="testimonial-text">
+                    This program transformed my career in healthcare
+                    administration. The flexible learning format was exactly
+                    what I needed to advance while maintaining my work
+                    responsibilities.
+                  </p>
+                  <img
+                    src="https://suxnix-dev.myshopify.com/cdn/shop/files/testi_avatar01.jpg?v=1737218128"
+                    class="author_img"
+                  />
+                  <p class="testimonial-author text-center">MICHAEL BROWN</p>
+                </div>
+              </div>
+
+              <!-- Slide 3 -->
+              <div class="carousel-item" data-bs-interval="4000">
+                <div class="testimonial-card mx-auto" style="max-width: 700px">
+                  <div class="row-cols-5 text-center">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <p class="testimonial-text">
+                    As a busy professional, finding quality education that fits
+                    my schedule was challenging until I discovered this program.
+                    It exceeded all my expectations.
+                  </p>
+                  <img
+                    src="https://suxnix-dev.myshopify.com/cdn/shop/files/testi_avatar03.jpg?v=1737218128"
+                    class="author_img"
+                  />
+                  <p class="testimonial-author text-center">SARAH WILSON</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#testimonialCarousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#testimonialCarousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+            </button>
+
+            <!-- Indicators -->
+            <div class="carousel-indicators mt-4">
+              <button
+                type="button"
+                data-bs-target="#testimonialCarousel"
+                data-bs-slide-to="0"
+                class="active"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#testimonialCarousel"
+                data-bs-slide-to="1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#testimonialCarousel"
+                data-bs-slide-to="2"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====suxnix news====== -->
+      <section class="news-faq-section py-5">
+        <div class="container">
+          <div class="row g-5">
+            <!-- LEFT : LATEST NEWS -->
+            <div class="col-lg-6">
+              <span class="section-subtitle">.. SUXNIX NEWS ..</span>
+              <h2 class="section-title">LATEST NEWS</h2>
+
+              <!-- News Item -->
+              <div class="news-item d-flex mb-4">
+                <img
+                  src="https://suxnix-dev.myshopify.com/cdn/shop/articles/inner_blog_thumb03.jpg?v=1737015386"
+                  class="news-img"
+                />
+                <div class="ms-3">
+                  <small class="text-muted"
+                    >business <i class="fa-regular fa-clock"> </i> January 16,
+                    2025</small
+                  >
+                  <h5>LABORIS NISI UT ALIQUIP EX EA COMMODO...</h5>
+                  <p class="posted-by">
+                    Posted by - <span>Web Developer</span>
+                    <i class="fa-regular fa-envelope"></i>0
+                    <i class="fa-solid fa-eye"></i>K
+                  </p>
+                </div>
+              </div>
+              <hr />
+
+              <div class="news-item d-flex mb-4">
+                <img
+                  src="https://suxnix-dev.myshopify.com/cdn/shop/articles/inner_blog_thumb02.jpg?v=1737015311"
+                  class="news-img"
+                />
+                <div class="ms-3">
+                  <small class="text-muted"
+                    >business <i class="fa-regular fa-clock"> </i> January 16,
+                    2025</small
+                  >
+                  <h5>ADIPISCING ELIT SED DO EIUSMOD TEMP...</h5>
+                  <p class="posted-by">
+                    Posted by - <span>Web Developer</span>
+                    <i class="fa-regular fa-envelope"></i>0
+                    <i class="fa-solid fa-eye"></i>K
+                  </p>
+                </div>
+              </div>
+              <hr />
+              <div class="news-item d-flex">
+                <img
+                  src="https://suxnix-dev.myshopify.com/cdn/shop/articles/inner_blog_thumb01.jpg?v=1737015111"
+                  class="news-img"
+                />
+                <div class="ms-3">
+                  <small class="text-muted"
+                    >design <i class="fa-regular fa-clock"> </i>January,16
+                    2025</small
+                  >
+                  <h5>LOREM IPSUM DOLOR SIT AMET CONSECTE...</h5>
+                  <p class="posted-by">
+                    Posted by - <span>Web Developer</span>
+                    <i class="fa-regular fa-envelope"></i>0
+                    <i class="fa-solid fa-eye"></i>K
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-1 d-none d-lg-flex justify-content-center">
+              <span class="vr_line"></span>
+            </div>
+
+            <!-- RIGHT : FAQ  -->
+            <div class="col-lg-5">
+              <span class="section-subtitle">.. COMMON QUESTIONS ..</span>
+              <h2 class="section-title">FREQUENTLY ASKED QUESTIONS</h2>
+
+              <div class="accordion mt-4">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq1"
+                    >
+                      01. Suxnix ingredients provides a searchable ?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq1"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body">
+                      There are many variations of passages of lorem ipsum that
+                      available but the majority have alteration in some form by
+                      injected humour. There are many variations of passages.
+                    </div>
+                  </div>
+                </div>
+                <hr style="margin-top: 3px" />
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq2"
+                    >
+                      02. How to edit Suxnix themes ?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq2"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body">
+                      There are many variations of passages of lorem ipsum that
+                      available but the majority have alteration in some form by
+                      injected humour. There are many variations of passages.
+                    </div>
+                  </div>
+                </div>
+                <hr style="margin-top: 3px" />
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq3"
+                    >
+                      03. Suxnix app is a powerful application ?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq3"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body">
+                      There are many variations of passages of lorem ipsum that
+                      available but the majority have alteration in some form by
+                      injected humour. There are many variations of passages.
+                    </div>
+                  </div>
+                </div>
+                <hr style="margin-top: 3px" />
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq4"
+                    >
+                      04. Latest version thorough Suxnix powerful ?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq4"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body">
+                      There are many variations of passages of lorem ipsum that
+                      available but the majority have alteration in some form by
+                      injected humour. There are many variations of passages.
+                    </div>
+                  </div>
+                </div>
+                <hr style="margin-top: 3px" />
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq5"
+                    >
+                      05.How to Track My Order ?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq5"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body">
+                      There are many variations of passages of lorem ipsum that
+                      available but the majority have alteration in some form by
+                      injected humour. There are many variations of passages.
+                    </div>
+                  </div>
+                </div>
+                <hr style="margin-top: 3px" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===Gallary Section==== -->
+      <div class="container">
+        <div
+          id="multiImageSlider"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div
+                  class="col-lg-3 col-md-6 col-12 d-flex justify-content-center"
+                >
+                  <img
+                    src="https://suxnix-dev.myshopify.com/cdn/shop/files/instagram_post02_a85b661a-67ea-4a36-ad29-c9e84ee797ae.jpg?v=1737134121"
+                    class="img-fluid"
+                  />
+                </div>
+                <div
+                  class="col-lg-3 col-md-6 col-12 d-flex justify-content-center"
+                >
+                  <img
+                    src="https://suxnix-dev.myshopify.com/cdn/shop/files/instagram_post03_8902567f-4641-4a0d-8a5d-d9ab44870ead.jpg?v=1737134471"
+                    class="img-fluid"
+                  />
+                </div>
+                <div
+                  class="col-lg-3 col-md-6 col-12 d-flex justify-content-center"
+                >
+                  <img
+                    src="https://suxnix-dev.myshopify.com/cdn/shop/files/instagram_post04_f36edf63-f2ee-407c-ad8f-24edd6fcf69d.jpg?v=1737134471"
+                    class="img-fluid"
+                  />
+                </div>
+                <div
+                  class="col-lg-3 col-md-6 col-12 d-flex justify-content-center"
+                >
+                  <img
+                    src="https://suxnix-dev.myshopify.com/cdn/shop/files/instagram_post05_076fdf6c-6ffe-45f7-8388-6900702b3b4b.jpg?v=1737134471"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+              <div class="row justify-content-center align-items-center">
+                <div
+                  class="col-lg-3 col-md-6 col-12 d-flex justify-content-center"
+                >
+                  <img
+                    src="https://suxnix-dev.myshopify.com/cdn/shop/files/instagram_post06_ec34de05-56ce-4943-96eb-fdbc6f239030.jpg?v=1737134471"
+                    class="img-fluid"
+                  />
+                </div>
+                <div
+                  class="col-lg-3 col-md-6 col-12 d-flex justify-content-center"
+                >
+                  <img
+                    src="https://suxnix-dev.myshopify.com/cdn/shop/files/instagram_post01_e129213d-f718-4e47-a5f4-d6ec8f7ab64d.jpg?v=1737134057"
+                    class="img-fluid"
+                  />
+                </div>
+                <div
+                  class="col-lg-3 col-md-6 col-12 d-flex justify-content-center"
+                >
+                  <img
+                    src="https://suxnix-dev.myshopify.com/cdn/shop/files/instagram_post02_a85b661a-67ea-4a36-ad29-c9e84ee797ae.jpg?v=1737134121"
+                    class="img-fluid"
+                  />
+                </div>
+                <div
+                  class="col-lg-3 col-md-6 col-12 d-flex justify-content-center"
+                >
+                  <img
+                    src="https://suxnix-dev.myshopify.com/cdn/shop/files/instagram_post03_8902567f-4641-4a0d-8a5d-d9ab44870ead.jpg?v=1737134471"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ====Footer Section==== -->
+      <section class="footer">
+        <div class="container">
+          <div class="row gy-4">
+            <!-- FOOTER ABOUT -->
+            <div class="col-lg-4 col-md-6">
+              <div class="footer-widget">
+                <img
+                  src="https://suxnix-dev.myshopify.com/cdn/shop/files/white_logo.png?v=1737133588"
+                  class="footer-logo"
+                  alt="Suxnix"
+                />
+
+                <p class="footer-text">
+                  Making beauty especially relating complot especial common
+                  questions tend to recur through posts or queries standards
+                  vary orem donor command tei.
+                </p>
+
+                <div class="footer-social">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- ABOUT US -->
+            <div class="col-lg-2 col-md-6">
+              <div class="footer-widget">
+                <h4 class="footer-title">ABOUT US</h4>
+                <ul class="footer-links">
+                  <li><a href="#">Shop</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Blogs</a></li>
+                  <li><a href="#">Product</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- SUPPORT -->
+            <div class="col-lg-2 col-md-6">
+              <div class="footer-widget">
+                <h4 class="footer-title">SUPPORT</h4>
+                <ul class="footer-links">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Blogs</a></li>
+                  <li><a href="#">Blog Post</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- CONTACT -->
+            <div class="col-lg-4 col-md-6">
+              <div class="footer-widget">
+                <h4 class="footer-title">CONTACT US</h4>
+
+                <p class="footer-contact">
+                  4140 Parker Rd. Allentown, New Mexico 31134
+                </p>
+
+                <p class="footer-contact">
+                  <i class="fas fa-phone"></i> +1 31-6555-0116
+                </p>
+
+                <p class="footer-contact">
+                  <i class="fas fa-envelope"></i> suxnix@example.com
+                </p>
+
+                <p class="footer-contact">
+                  <i class="fas fa-globe"></i> www.suxnixdomain.com
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

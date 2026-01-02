@@ -1,0 +1,218 @@
+/* NAVBAR */
+/* NAVBAR SCROLL ANIMATION */
+.custom-nav {
+  transition: all 0.3s ease;
+  padding: 20px 0;
+  backdrop-filter: blur(10px); /* blur everything behind */
+  -webkit-backdrop-filter: blur(10px); /* for Safari */
+}
+.logo {
+  height: 50px;
+  width: 250px;
+}
+.custom-nav.scrolled {
+  padding: 10px 0;
+  background-color: white;
+  opacity: 0.8;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.custom-nav.scrolled .navbar-brand,
+.custom-nav.scrolled .nav-link {
+  color: #333 !important;
+}
+
+/* Brand & Links */
+.navbar-brand {
+  color: white;
+  transition: color 0.4s ease;
+}
+
+.nav-link {
+  margin: 0 8px;
+  font-weight: 500;
+  color: white;
+  transition: color 0.4s ease;
+}
+
+.navbar-nav .dropdown:hover > .dropdown-menu {
+  display: block; /* show menu on hover */
+  margin-top: 0; /* remove gap under link */
+}
+
+/* Dropdown toggle */
+.navbar-nav .dropdown:hover > .nav-link,
+.navbar-nav .dropdown.show > .nav-link {
+  /* text-decoration: none; */
+  color: white;
+}
+
+/* Dropdown menu items normal */
+.navbar-nav .dropdown-menu .dropdown-item {
+  color: #333; /* normal text color */
+  /* text-decoration: none; */
+  transition: color 0.3s, background 0.3s;
+  /* background-color: white; */
+}
+
+/* Dropdown menu item hover */
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+  color: #ff4d7e;
+  /* background-color: transparent; */
+}
+/* BUTTON */
+.btn-pink {
+  background: #ff4d7e;
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: 8px;
+  border: none;
+}
+
+.btn-pink:hover {
+  border: 2px solid white;
+}
+
+/* HERO SECTION */
+.hero-section {
+  min-height: 100vh;
+  background: url("https://martex-tailwindcss.ibthemespro.com/images/hero-1.jpg");
+  padding-top: 120px;
+  background-size: cover; /* makes the image cover entire section */
+  background-position: center; /* center the image */
+  background-attachment: fixed; /* makes the background stay in place */
+  position: relative;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.hero-text {
+  font-size: 16px;
+  max-width: 450px;
+}
+
+.hero-img {
+  max-width: 90%;
+}
+
+/* ===== RESPONSIVE ===== */
+
+/* Tablet */
+@media (max-width: 991px) {
+  .hero-title {
+    font-size: 36px;
+  }
+
+  .hero-section {
+    text-align: center;
+  }
+
+  .hero-text {
+    margin: auto;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .hero-title {
+    font-size: 28px;
+  }
+
+  .hero-text {
+    font-size: 14px;
+  }
+
+  .hero-img {
+    max-width: 80%;
+    margin-top: 30px;
+  }
+
+  .btn-pink {
+    width: 100%;
+    max-width: 260px;
+  }
+}
+@media (max-width: 991px) {
+  .navbar-nav {
+    background: #e9ddff;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .navbar-nav .nav-link {
+    margin: 8px 0;
+  }
+}
+
+/* ===== SERVICES SECTION ===== */
+.services-section {
+  background-color: #fefeff; /* light background for navbar readability */
+}
+
+.section-title {
+  font-size: 56px;
+  font-weight: 700;
+  color: #1f1f2e;
+}
+
+.section-subtitle {
+  font-size: 36px;
+  color: #6c6c7c;
+}
+
+.service-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* .service-icon {
+  width: 110px;
+  height: 100px;
+  filter: hue-rotate(330deg) saturate(2); /* matches pink theme */
+/* }  */
+
+.service-item h5 {
+  margin-top: 15px;
+  font-weight: 600;
+  color: #1f1f2e;
+}
+
+.service-item p {
+  margin-top: 8px;
+  font-size: 20px;
+  color: #6c6c7c;
+}
+
+/* RESPONSIVE */
+@media (max-width: 991px) {
+  .section-title {
+    font-size: 28px;
+  }
+
+  .service-item p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 576px) {
+  .section-title {
+    font-size: 22px;
+  }
+
+  .service-item p {
+    font-size: 12px;
+  }
+}
+
+.fa-money-bill-trend-up,
+.fa-mars-and-venus-burst,
+.fa-digital-ocean,
+.fa-walkie-talkie {
+  color: #ff2f6b;
+}
